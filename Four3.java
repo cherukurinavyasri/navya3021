@@ -9,7 +9,7 @@ class Four3
       double height=s.nextDouble();
      double weight=s.nextDouble();
       System.out.println("patient name is"+name);
-     System.out.println(Patient.bmi(name,height,weight));
+     System.out.println("patient bmi is"+Patient.bmi(name,height,weight));
  }
 }
 
