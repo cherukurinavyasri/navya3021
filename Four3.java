@@ -8,7 +8,7 @@ class Four3
        String name=s.next();
       double height=s.nextDouble();
      double weight=s.nextDouble();
-
+      System.out.println("patient name is"+name);
      System.out.println(Patient.bmi(name,height,weight));
  }
 }
@@ -19,7 +19,7 @@ class Patient
    double weight,height;
  double bmi(String name,double height,double weight)
          {
-            return((weight/height*height)*703);
+            return((weight/height)*703);
 
         }
 }
